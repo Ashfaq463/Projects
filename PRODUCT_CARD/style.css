@@ -1,0 +1,111 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+.cover {
+    display : flex;
+    background-color : rgb(242, 232, 218);
+    height : 100vh;
+    flex-direction : row;
+    justify-content : center;
+    align-items : center;
+}
+
+.card {
+    background-color : white;
+    height : 400px;
+    width : 700px;
+    border : 0px solid white;
+    border-radius : 20px;
+    background-image : url(mug.jpg);
+    background-repeat : no-repeat;
+    background-size : 330px 400px;
+}
+
+.content {
+    font-size : 22px;
+    padding-left : 370px;
+}
+
+
+#heading1 {
+    color : grey;
+    font-size : 18px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing : 7px;
+    padding-top : 25px;
+    position : absolute;
+}
+
+#heading2 {
+    font-size : 35px;
+    font-weight : bolder;
+    position : absolute;
+    font-family: 'Fraunces', serif;
+    top : 12rem;
+}
+
+#heading3 {
+    font-size : 35px;
+    font-family: 'Fraunces', serif;
+    font-weight : bolder;
+    position : absolute;
+    top : 14rem;
+}
+
+#about {
+    color : hsl(228, 12%, 48%);
+    font-family : 'Montserrat', sans-serif;
+    font-size : 17px;
+    padding-top : 162px;
+}
+
+#price1 {
+    position : absolute;
+    top : 24.5rem;
+    padding-left : 370px;
+    font-size : 35px;
+    font-family: 'Fraunces', serif;
+    font-weight : bolder;
+    color : hsl(158, 36%, 37%);
+}
+
+#price2 {
+    position : absolute;
+    top : 25.5rem;
+    padding-left : 465px;
+    font-size : 20px;
+    color : hsl(228, 12%, 48%);
+    font-weight : bold;
+    opacity : 0.8;
+
+}
+
+.button {
+    background-color :hsl(158, 36%, 37%);
+    text-align : center;
+    color : white;
+    font-family : 'Montserrat', sans-serif;
+    height : 2.8125rem;
+    width : 18.75rem;
+    border : 0rem solid white;
+    border-radius : 0.625rem;
+    position : absolute;
+    top : 28.5rem;
+    left : 44rem;
+    padding : 0.625rem;
+    font-size : 1.125rem;
+}
+
+.button:hover {
+    background-color : hsl(156, 24%, 24%);
+}
+
+#about {
+    color : hsl(228, 12%, 48%);
+    font-family : 'Montserrat', sans-serif;
+    font-size : 1.0625rem;
+    padding-top : 10.125rem;
+}
